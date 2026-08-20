@@ -1,0 +1,6 @@
+{
+  "name": "OmniCore Retro Station",
+  "description": "A unified all-in-one Android emulation frontend combining PPSSPP, DuckStation, PCSX2, Dolphin, MelonDS, mGBA, and more into a seamless, modern gaming library.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

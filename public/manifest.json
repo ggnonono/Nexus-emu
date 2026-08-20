@@ -1,0 +1,18 @@
+{
+  "name": "NEXUS CORE Retro Station",
+  "short_name": "NEXUS CORE",
+  "description": "Unified all-in-one Android emulation frontend combining PPSSPP, DuckStation, PCSX2, Dolphin, MelonDS, and retro systems.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080a",
+  "theme_color": "#08080a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

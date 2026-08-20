@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#090a0f" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)" stroke="rgba(255,255,255,0.12)" stroke-width="8"/>
+  <circle cx="256" cy="256" r="180" fill="url(#accent)" opacity="0.15" filter="url(#glow)" />
+  <!-- Gamepad Icon -->
+  <g transform="translate(106, 126)" filter="url(#glow)">
+    <path d="M70 20C40 20 10 45 10 90c0 65 30 150 70 150 25 0 35-30 65-30h110c30 0 40 30 65 30 40 0 70-85 70-150 0-45-30-70-60-70H70z" fill="#0f172a" stroke="url(#accent)" stroke-width="12" stroke-linejoin="round"/>
+    <!-- Dpad -->
+    <path d="M85 80v60M55 110h60" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+    <!-- Buttons -->
+    <circle cx="235" cy="95" r="9" fill="#a855f7"/>
+    <circle cx="255" cy="115" r="9" fill="#ec4899"/>
+    <circle cx="215" cy="115" r="9" fill="#3b82f6"/>
+    <circle cx="235" cy="135" r="9" fill="#10b981"/>
+    <!-- Center Sticks -->
+    <circle cx="120" cy="170" r="18" fill="#1e293b" stroke="#3b82f6" stroke-width="4"/>
+    <circle cx="180" cy="170" r="18" fill="#1e293b" stroke="#a855f7" stroke-width="4"/>
+  </g>
+</svg>
